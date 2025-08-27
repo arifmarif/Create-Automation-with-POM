@@ -2,11 +2,11 @@ class loginPage{
   visitPage(){
     cy.visit("https://opensource-demo.orangehrmlive.com/");
   }
-  inputUsername(){
-    cy.get('input[name="username"]').type("Admin").should("have.value","Admin");
+  inputUsername(username){
+    cy.get('input[name="username"]').type(username);
   }
-  inputPassword(){
-    cy.get('input[name="password"]').type("admin123");
+  inputPassword(password){
+    cy.get('input[name="password"]').type(password);
   }
   interceptLogin(){
     cy.intercept(
