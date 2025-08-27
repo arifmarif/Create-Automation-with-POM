@@ -1,0 +1,23 @@
+{
+  "name": "tugas_ke_17",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/arifmarif/Create-Automation-with-POM#readme",
+  "bugs": {
+    "url": "https://github.com/arifmarif/Create-Automation-with-POM/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifmarif/Create-Automation-with-POM.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  }
+}
